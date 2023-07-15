@@ -1,3 +1,3 @@
-### CricStat
+### CricStat+
 
 Chrome Extension
