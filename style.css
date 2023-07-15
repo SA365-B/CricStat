@@ -1,0 +1,43 @@
+body {
+    min-width: 300px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  #matches {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  #matches li {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #matches li:last-child {
+    margin-bottom: 0;
+  }
+  
+  #matches li:hover {
+    background-color: #94e3ea;
+  }
+  
+  #matches li::before {
+    content: "🏏";
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  #matches li .match-name {
+    font-weight: bold;
+  }
+  
+  #matches li .match-status {
+    color: #888888;
+  }
+  
+  
