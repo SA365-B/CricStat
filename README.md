@@ -1,3 +1,3 @@
 ### CricStat
 
-#Chrome Extension
+Chrome Extension
